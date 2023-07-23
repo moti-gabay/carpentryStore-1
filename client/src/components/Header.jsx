@@ -71,7 +71,10 @@ const Header = () => {
                 </li>
                 <li className='hover:scale-110'>
                    <Link to={"/buildGuides"}>Build Guides</Link> 
-                    </li>
+                </li>
+                {/* {user && <li className='hover:scale-105'>
+                    <Link to={"/contactUs"} className=''>My Favorite Guides</Link>
+                </li>} */}
                 <li className='hover:scale-110'>
                     <Link to={"/about"}>About</Link>
                 </li>
