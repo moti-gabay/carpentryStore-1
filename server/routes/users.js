@@ -5,9 +5,9 @@ const { adminReq } = require("../controllers/adminCtrl");
 const { cartReq } = require("../controllers/cartCtrl");
 const router = Router();
 
-// router.get("/", async(req,res) => {
-//   res.json({msg:"Users endpoint"}); 
-// })
+ router.get("/", async(req,res) => {
+   res.json({msg:"Users endpoint"}); 
+ })
 
 // user requests
 router.post("/signUp", userReq.signUp);
